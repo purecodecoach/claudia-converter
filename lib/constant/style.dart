@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+//light theme settings
 const Color primaryColor = Color(0xff404e97);
 const Color accentColor = Color(0xffffffff);
 
@@ -102,6 +103,7 @@ const FloatingActionButtonThemeData floatingTheme =
   backgroundColor: primaryColor,
 );
 
+//dark theme settings
 const Color darkPrimaryColor = Color(0xfff6deb6);
 const Color darkAccentColor = Color(0xff202020);
 
