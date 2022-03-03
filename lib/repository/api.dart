@@ -21,6 +21,8 @@ class Api {
   Future<double> fetchRates(String base, String symbol) async {
     var response = await client.get(
       Uri.encodeFull('$baseEndpoint/latest?base=$base&symbols=$symbol'),
+      // Uri.encodeFull('$baseEndpoint/latest?base=$base&symbols=$symbol'),
+      // headers: header,
     );
 
     print('response: ${response.request} ${response.statusCode}');
