@@ -1,0 +1,31 @@
+name: claudia_converter
+description: Claudia Converter from Freelancer.
+version: 1.0.0
+
+environment:
+  sdk: ">=2.6.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^3.2.0
+  equatable: ^1.1.0  
+  get_it: ^4.0.0
+  http: ^0.12.0+4
+  hydrated_bloc: ^3.0.0
+  auto_size_text: ^2.1.0
+  cupertino_icons: ^0.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.7.4
+
+flutter_icons:
+  image_path_android: "images/icon.jpg"
+  image_path_ios: "images/icon.jpg"
+  android: true
+  ios: true
+
+flutter:
+  uses-material-design: true
